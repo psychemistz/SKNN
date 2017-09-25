@@ -50,8 +50,6 @@ For a gene expression with the high missing rates, the EM-SKNN is shown to outpe
 
 **Example**
 
-You can download the package from <http://143.248.33.195/Bisyn-Lab-Tools/SKNN/SKNN_1.0.0.tar.gz>
-
 <br>
 
 1. Install
