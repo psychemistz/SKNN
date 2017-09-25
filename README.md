@@ -54,7 +54,7 @@ For a gene expression with the high missing rates, the EM-SKNN is shown to outpe
 
 1. Install
 ```{r SKNN}
-install.packages("http://143.248.33.195/Bisyn-Lab-Tools/SKNN/SKNN_1.0.0.tar.gz", repos=NULL, type="source")
+install.packages("http://scode.kaist.ac.kr/Labtools/SKNN/SKNN_1.0.0.tar.gz", repos=NULL, type="source")
 ```
 
 The function included in the package SKNN: **SeqKNN**
@@ -67,7 +67,7 @@ SKNN::SeqKNN
 
 2. Working Example
 ```{r SKNN-E}
-data <- read.table("http://143.248.33.195/Bisyn-Lab-Tools/SKNN/Example.txt")
+data <- read.table("https://scode.kaist.ac.kr/Labtools/SKNN/Example.txt")
 library(knitr)
 kable(head(data[,1:5]))
 dim(data)
@@ -86,7 +86,7 @@ sum(is.na(Imp))
 **Citation Trend**
 ```{r SKNN-c, echo=F}
 library(knitr)
-kable(read.csv("http://143.248.33.195/Bisyn-Lab-Tools/SKNN/Citation-Trend.csv"))
+kable(read.csv("http://scode.kaist.ac.kr/Labtools/SKNN/Citation-Trend.csv"))
 ```
 
 <br>
